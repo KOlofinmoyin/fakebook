@@ -1,0 +1,16 @@
+header {
+    height: 25px;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    list-style-type: none;
+}
+
+main {
+    background-color: #EFF2F5;
+    height: 1057px;
+}

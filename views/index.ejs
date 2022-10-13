@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/index.css" rel="stylesheet" type="text/css">
     <title>FakeBook.com</title>
 </head>
 <body>
-    <h1>Welcome to FakeBook 
-    <%= data.loggedIn ? data.username : Guest %>
-    </h1>
+    <header>
+        <ul>
+            <li><img src="../Images/logo_icon.png" alt="fakebook logo"></li>
+            <li><img src="../Images/search_icon.png" alt="search icon"></li>
+            <li><img src="../Images/home_icon.png" alt="home icon"></li>
+            <li><img src="../Images/video_icon.png" alt="video icon"></li>
+            <li><img src="../Images/communities_icon.png" alt="communities logo"></li>
+            <li><img src="../Images/gaming_icon.png" alt="gaming logo"></li>
+            <li><img src="../Images/menu_icon.png" alt="menu logo"></li>
+            <li><img src="../Images/messenger_icon.png" alt="messenger logo"></li>
+            <li><img src="../Images/notification_icon.png" alt="notification logo"></li>
+            <li><img src="../Images/account_icon.png" alt="account logo"></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Welcome to FakeBook 
+            <%= data.loggedIn ? data.username : Guest %>
+            </h1>
+    </main>
 </body>
 </html>

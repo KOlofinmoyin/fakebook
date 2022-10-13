@@ -3,6 +3,7 @@ const app = express();
 const PORT = 3009;
 
 app.set("view engine", "ejs");
+app.use(express.static("public"));
 // REST API: Re-presentational State Transfer
 // GET POST PUT DELETE UPDATE
 // www.bbc.com / sport;
