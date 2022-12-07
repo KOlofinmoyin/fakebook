@@ -1,16 +1,20 @@
-header {
+.wrapper {
     height: 25px;
 }
-header ul {
+.wrapper ul {
     display: flex;
     justify-content: space-between;
 }
 
-header li {
+.wrapper li {
     list-style-type: none;
 }
 
-main {
+.container {
     background-color: #EFF2F5;
     height: 1057px;
+}
+
+.form {
+    margin: 10px;
 }

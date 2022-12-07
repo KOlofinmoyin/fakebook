@@ -8,7 +8,7 @@
     <title>FakeBook.com</title>
 </head>
 <body>
-    <header>
+    <div class="wrapper">
         <ul>
             <li><img src="../Images/logo_icon.png" alt="fakebook logo"></li>
             <li><img src="../Images/search_icon.png" alt="search icon"></li>
@@ -21,11 +21,11 @@
             <li><img src="../Images/notification_icon.png" alt="notification logo"></li>
             <li><img src="../Images/account_icon.png" alt="account logo"></li>
         </ul>
-    </header>
-    <main>
+    </div>
+    <div class="container">
         <h1>Welcome to FakeBook 
             <%= data.loggedIn ? data.username : Guest %>
             </h1>
-    </main>
+    </div>
 </body>
 </html>
